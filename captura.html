@@ -1,0 +1,43 @@
+<html>
+<head>
+<title>Captura de Datos</title>
+
+</head>
+<body background="verde.jpg">
+<div align="center">
+<h2>Formulario de Captura de Datos:</h2><hr>
+</div>
+<div align="left">	
+		<form name="fcaptura" method="post" action="">
+		<table>
+		Nombre: <input type="text" name="txtnombre"><br><br>
+		Apellido:<input type="text" name="txtapellido"><br><br>
+		DUI: <input type="text" name="txtdui"><br><br>
+		NIT: <input type="text" name="txtnit"><br><br>
+		Sexo:<input type="radio" name="sexo" value="hombre" CHECKED>Hombre <input type="radio" name="sexo" value="mujer">Mujer<br><br>
+		Estado civil:<br><br>
+		<select name="estados">
+        <option value="soltero" selected> Soltero/a </option>
+        <option value="casado"> Casado/a </option>
+        <option value="divorciado"> Divorciado/a </option>
+        <option value="viudo"> Viudo/a </option>
+        </select><br><br>
+		Telefono: <input type="text" name="txttel"><br><br>
+		Direccion: <input type="text" name="txtdir"><br><br>
+		Estudios realizados:<br><br>
+		<input type="checkbox" name="estudio" value="parvulario">Educacion Parvularia<br><br>
+        <input type="checkbox" name="estudio" value="basica">Educacion Basica<br><br>
+		<input type="checkbox" name="estudio" value="media">Educacion Media<br><br>
+        <input type="checkbox" name="estudio" value="superior">Educacion Superior<br><br>
+		La liga Favorita:<br>                      <input type="radio" name="liga" value="español" checked>Espa&ntildeola <br><br>
+												   <input type="radio" name="liga" value="italiana" checked>Italiana<br><br>
+												   <input type="radio" name="liga" value="salvadore&ntildea" checked>Salvadore&ntildea <br><br>
+		En caso de Emergencia llamar a: <input type="text" name="txtllamar"><br><br>
+		Al telefono: <input type="text" name="txtllamartel"><br><br>
+		<input type="submit" value="Enviar"><input type="reset" value="Cancelar">
+		</table>
+		
+		</form>
+</div>
+</body>
+</html>

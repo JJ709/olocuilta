@@ -1,0 +1,10 @@
+body{
+font-size: 100px;
+color:red;
+font-family:mistral;
+background-color: green;
+}
+#parrafo{
+text-transform:uppercase;
+text-decoration:blink; 
+}

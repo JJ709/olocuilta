@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>
+CAPTURA DE DATOS DE UN ALUMNO
+</title>
+<link href="/css/estilo.css" type="text/css" rel="stylesheet">
+</head>
+	<body bgcolor="#7093DB">
+	<div id ="wrapper">
+		<form name="sesion">
+			USUARIO: <input type="text" name="usuario">
+			CONTRASEÑA: <input type="text" name="contra">
+			<input type="button" name="enviar_datos" value="almacenar en cookie">
+			
+			<input type="button" class="boton" name"enviar_datos" value="ALMACENAR"
+			onClick="javascript:ejecutar(this.form)">
+			<input type="reset" class="boton" name"limpiar" value="borrar">
+			
+		</form>
+		<br /><a href="javascript:(leercookie('contra'));">Leercookie <a/>
+		
+		</div>
+	</body>
+
+</html>
